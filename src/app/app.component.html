@@ -1,6 +1,11 @@
 <main>
   <h1>Form</h1>
-
+  <!--
+  <input type="radio" name="yesNoAnswer" id="yes" value="true">
+  <label for="yes">Yes</label>
+  <input type="radio" name="yesNoAnswer" id="no" value="false">
+  <label for="no">No</label>
+  -->
   <form [formGroup]="form" (ngSubmit)="submit()">
 
     <app-yes-no-button-group
